@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  #overwrite default sensitive headers settings, by set only this headers as sensitive, so other headers such as Authorization can trasform normally.
+  sensitive-headers: Cookie,Set-Cookie
+  routes:
+    service-one:
+      path: /getTime
+      serviceId: service-one
+    main-service:
+      path: /**
+      serviceId: main-service

@@ -1,0 +1,43 @@
+button{
+	width:100px;
+	padding:4px;
+}
+div.mask {
+	position: absolute;
+	top: 0px;
+	filter: alpha(opacity = 60);
+	background-color: #777;
+	z-index: 1002;
+	left: 0px;
+	opacity: 0.5;
+	-moz-opacity: 0.5; ##
+	display: none;
+}
+
+div.mask div {
+	position: absolute;
+	left: 0;
+	bottom: 0;;
+	right: 0;
+	width: 50%;
+	text-align: center;
+	height: 16px;
+	margin: auto;
+	color: white;
+	height: 50%;
+}
+
+div.banner{
+	height:50px;
+	border-bottom: 1px solid black;
+}
+
+div.banner h1{
+	float:left;
+	margin: 0px;
+}
+
+div.banner a{
+	margin-top:10px;
+	float:right;
+}

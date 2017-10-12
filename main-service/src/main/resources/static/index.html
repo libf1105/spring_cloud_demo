@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Micro Service Demo Page</title>
+<script type="text/javascript" src="webjars/jquery/2.1.1/jquery.js"></script>
+<script type="text/javascript" src="demo.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="mask">
+		<div>Loading...</div>
+	</div>
+	<div class="banner">
+		<h1>Demo Page</h1>
+		<a href="logout">Logout</a>
+	</div>
+	<h2>Tools:</h2>
+	<button id="eureka">show eureka</button>
+	<button id="hystrix">show hystrix</button>
+	<button id="zipkin">show zipkin</button>
+	<h2>Test Cases:</h2>
+	<button id="testConfig">get config</button>
+	<button id="testRefreshConfig">refresh config</button>
+	<button id="testFeign">call feignclient</button>
+	<h2>Server Response:</h2>
+	<div id="result" style="border: 1px solid gray; height: 100px; padding: 4px"></div>
+</body>
+</html>
