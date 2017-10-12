@@ -14,7 +14,6 @@ This demo includes features as below:
 8. intergrated zipkin embed with sleuth supports micro-service call tracing.
 9. a zipkin dashboard demo.
 10. other functions in constructing...
-#=====for git command test=============
 
 demo project start up orders:
 1. eureka-server (must wait for completed startup)
