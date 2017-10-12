@@ -15,7 +15,7 @@ This demo includes features as below:
 9. a zipkin dashboard demo.
 10. other functions in constructing..
 
-#=============test===========
+#=============test/test2===========
 
 demo project start up orders:
 1. eureka-server (must wait for completed startup)
