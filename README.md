@@ -16,7 +16,8 @@ This demo includes features as below:
 10. other functions in constructing..
 
 
-#=============modify from remote/ second modify ==XXXXXX=========
+
+#=============modify from remote/ second modify / third time modify from remote========
 
 
 demo project start up orders:
