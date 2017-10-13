@@ -15,7 +15,9 @@ This demo includes features as below:
 9. a zipkin dashboard demo.
 10. other functions in constructing..
 
-#=============modify from remote ===XXXXXX========
+
+#=============modify from remote/ second modify ===========
+
 
 demo project start up orders:
 1. eureka-server (must wait for completed startup)
